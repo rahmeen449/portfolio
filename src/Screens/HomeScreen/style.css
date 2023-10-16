@@ -1,0 +1,339 @@
+.developer{
+    font-size: 4rem;
+    letter-spacing: 4px;
+    color: #CCF381; 
+    line-height: 4.5rem;
+    margin-bottom: 15px;
+}
+.develop-content{
+    color: white;  
+    padding-left: 4px;
+
+}
+.content-maker{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:  100vh; 
+    padding-left: 5rem;
+}
+.text{
+    color: #CCF381;
+    width: 40%; 
+}
+.content-maker2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+    width: 40%;
+}
+.home-content{
+    /* background-color:#3D155F;'*/
+    background-color: #4831d4;
+    width: 60%;
+}
+.part{
+    background-color: #CCF381;
+    width: 40%;
+    height: 100vh;
+}
+.home{
+    display: flex;
+    align-items: center;
+}
+/* ///////////////    RESPONSIVENES    ///////////////// */
+@media only screen and ( max-width:1050px ){
+    .developer{
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    /* .home-content{
+        width: 70%;
+    }
+    .part{
+        width: 30%;
+    } */
+}
+/* @media only screen and ( max-width:950px ){
+    .developer{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    .home-content{
+        width: 50%;
+    }
+    .part{
+        width: 50%;
+    } 
+} */
+@media only screen and ( max-width:800px ){
+    .home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home-content{
+        width: 100%;
+    }
+    .part{
+        width: 100%;
+    }
+    .developer{
+        font-size: 4rem;
+        letter-spacing: 4px;
+        color: #CCF381; 
+        line-height: 4.5rem;
+        margin-bottom: 15px;
+    }
+    .develop-content{
+        color: white;  
+    
+    }
+    .content-maker{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height:  100vh;  
+        padding-left: 5rem; 
+
+    }
+
+}
+/* ///////////////      PAST YEARS      //////////////// */
+
+.past-years{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: none;
+}
+.past{
+    padding-right: 4rem;
+}
+.past-content{
+    width: 35%;   
+}
+.past-heading{
+    color: #CCF381;
+    font-size: 4rem; 
+     line-height: 4.5rem;
+     padding-bottom: 10px;
+}
+.past-years{
+    padding: 2.6rem 2rem 2.6rem 5rem;
+    background-color: #4831d4;
+}
+.past-text{
+     padding-top: 10px;
+    color: white;
+}
+
+/* //////////////////     BUILD AND WRITE    //////////////////// */
+.buil-and-write{
+    /* background-color: rgba(111, 132, 230, .3); */
+    background-color: lightgray;
+    height: 100vh;
+    display: flex; 
+    align-items: center;
+    display: none;
+}
+.build-write{
+    background-color: white;
+    margin: 0rem 2rem;
+    /* padding: 3rem 0rem; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+   
+}
+.build-heading{
+    color: #4831d4;
+    font-size:3rem ;
+    width: 50%;
+    line-height: 3.5rem;
+    padding-top: 4rem;
+     
+}
+.build-para{
+    font-size: 24px;
+    color: #3D155F;
+    width: 35%;
+    padding:30px 0px 40px 0;
+}
+.build-content{ 
+    padding-left: 3rem; 
+}
+.build-stuff{
+    width: 100%;
+    border-right: 1px solid #4831d4;
+  
+}
+.engineering-stuff{
+    width: 100%;
+}
+ 
+.btn{
+    padding: 20px 50px;
+    border: 1px solid #4831d4;
+    background-color: white;
+    cursor: pointer;
+     margin-bottom: 4rem;
+}
+.btn:hover a{
+     background-color: #4831d4;
+     color:  white;
+}
+.btn:hover {
+    background-color: #4831d4;
+    color:  white;
+}
+.btn a{
+    text-decoration: none;
+    color: #4831d4;
+}
+
+/* //////////////////////     PROJECTS      ///////////////////////// */
+.my-project{
+    text-align: center;
+    font-size: 4rem;
+    padding: 2rem;
+}
+.projects{
+    background-color: #4831d4;
+    color: white;
+    display: none;
+}
+.project-content{
+    width: 30%;
+}
+.project-img{
+    width: 500px;
+}
+.project-img2{
+    width: 300px;
+}
+.atom-text{
+    font-size: 3rem;
+}
+.project1{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding-bottom: 5rem;
+}
+/* /////////////     SKILLS     /////////// */
+ 
+.part1{
+    display: flex;
+    align-items: center; 
+    padding-bottom: 4rem;
+}
+.part2{
+    display: flex;
+    align-items: center; 
+}
+.icon1{
+    width: 100px;
+    padding-left: 9rem;
+}
+.icon2{
+    width: 100px; 
+    padding-left: 16rem;
+}
+.icon3{
+    width: 100px; 
+    padding-left: 9.5rem;
+}
+ 
+.project-heading{
+    font-size: 4rem;
+    color: white;
+    text-align: center; 
+    padding-bottom: 5rem;
+}
+.skills-expertise{
+    background-color: #4831d4;
+    padding: 5rem 0rem;
+    display: none;
+}
+
+
+
+/* /////////////       CONTACT INFORMATION        ////////////////////////// */
+
+.contact-content{
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact-heading{
+    color: #4831d4;
+    font-size:2.77rem ;
+    padding-top: 6.1rem;
+}
+.contact-para{
+    padding-top: 15px;
+    font-size: 22px;
+    color: #3D155F;
+    width: 32%;
+}
+.label{ 
+    color: rgba(61, 21, 95, 0.5);
+}
+.placeholder{
+    border: none;
+    border-bottom: 2px solid lightgray;
+    color:#4831d4;
+    font-size: 16px;
+    padding: 10px 0px;
+    width: 300px;
+}
+.placeholder:focus{
+    outline: none;
+    border-bottom: 1px solid #4831d4;  
+ }
+.placeholder2{
+    border: none;
+    border-bottom: 2px solid lightgray;
+    color: lightgray; 
+    font-size: 16px;
+    padding: 10px 0px;
+    margin-bottom:5rem;
+    width: 660px;
+    color:#4831d4;
+}
+.placeholder2:focus{
+    outline: none; 
+    border-bottom: 1px solid #4831d4;
+ }
+ input:focus::placeholder {
+    color: transparent;
+  }
+  .input1{
+    margin-right: 55px;
+  }
+  .name-email{
+    display: flex;
+    align-items: center;
+    justify-content:center; 
+    margin:5rem 0px 3rem 0px;
+    width: 100%;
+  }
+  .contactForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-info{
+    display: none;
+  }
